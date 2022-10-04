@@ -1,0 +1,44 @@
+
+#include <stdio.h>
+
+int main() 
+{
+    int a,b,res,op;
+    float division;
+    printf("Enter first number\n");
+    scanf("%d",&a);
+    printf("Enter second number");
+    scanf("%d",&b);
+    
+    printf("Enter a appropiate operator\n");
+    scanf("%d",&op);
+    if(op=="+")
+    {
+        res=a+b;
+        printf("sum=%d",res);
+    }
+    else if(op=="-")
+    {
+        res=a-b;
+        printf("sub=%d",res);    
+        
+    }
+    else if(op="*")
+    {
+        res=a*b;
+        printf("multiplicatoin=%d",res);
+    }
+    else if(op="%")
+    {
+        res=a%b;
+        printf("remainder=%d",res);
+    }
+    else if(op="/")
+    {
+        division=a/b;
+        printf("quitoinent=%f",division);
+    }
+    
+    
+    return 0;
+}
